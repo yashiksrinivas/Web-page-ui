@@ -1,0 +1,650 @@
+
+   /* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: rgb(255, 251, 251);
+    font-weight: 550;
+    text-decoration: none;
+}
+
+/*  Update the code below this comment *
+header{
+    height: 55px;
+    background-color: #0b081b;
+    
+}
+/*
+.Navbar-title{
+    padding-top:18px;
+}
+
+.Navbar-title{
+    color: white;
+    font-size: 25px;
+}
+
+.nav-item{
+
+}*/
+
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+   /* header {
+      background-color: #333;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }*/
+
+    /*header{
+    height: 55px;
+    background-color: #0b081b;
+    text-align: left;}*/
+
+    header.arranging {
+      background-color: #0b081b;
+      padding: 15px 20px;
+      display: flex;
+    }
+
+
+    .headings{
+      background-color: rgb(11, 11, 44);
+      border:solid;
+      height: 400px;
+    }
+
+    button{
+      background-color:rgb(241, 241, 26);
+      width: 120px;
+      height: 35px;
+      align-items:right;
+      
+    }
+
+    
+    h4{
+      margin-left:15px;
+      color: orange;
+      text-align: 23px;
+      /*margin-bottom:25px;*/
+    }
+
+    h4.position{
+      margin-left: 10%;
+      margin-top: 7%;
+      margin-bottom: -1%;
+      color: rgb(177, 177, 30);
+    }
+
+    h3.names{
+      margin-left: 10%;
+      color: white;
+      margin-bottom: -1%;
+
+    }
+
+    p.initial{
+      margin-left: 10%;
+      color: white;
+      /*margin-bottom: -1.5%;*/
+    }
+
+    button.contact{
+      margin-left: 10%;
+      margin-bottom:1% ;
+    }
+
+
+    h4.html{
+      
+      }
+
+    p.css{
+      
+      color: white;
+    
+      /*margin-bottom: 180px;/*space is getting 
+      created in between elements that exist in div*/
+      
+      
+    }
+
+    button.js{
+      
+  
+      
+    }
+
+     p.name{
+        color: white;
+        margin-left: 25%;
+      } 
+     p.color{
+        color:orange ;
+        text-decoration: none;
+        }
+
+    .navheader{
+        display: flex;
+        
+
+    }
+
+    .navwidth{
+      width: 95%;
+      height: 60px;
+      /*border: solid white;*/
+      margin-left: 70%;
+      display: flex;
+    }
+
+    .section{
+      height:400px;
+      background-color: rgb(18, 18, 28);
+      border: solid;
+    }
+
+    h4.nodejs{
+      margin-left:10% ;
+    }
+
+    p.frameworks{
+      margin-left:10%;
+      color: white;
+    }
+
+    a.navs{
+        color:white;
+        text-decoration:none;
+        margin-left: 16px;
+        margin-top: 12px;
+
+         
+    }
+
+
+    /*.nav {
+      list-style: none;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      gap: 20px;
+    }*/
+
+    .displaying{
+      height: 180px;
+      width: 310px;
+      margin-left: 53%;
+      margin-top: 96px;
+      
+    }
+
+    .nav {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+
+
+    .img{
+      align-items:center;
+    }
+
+
+    .navheader a {
+      color: #f9fbfb;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .navheader a:hover {
+      text-decoration: underline;
+    }
+
+    .about{
+      background-color: #0b081b ;
+      height:400px;
+      border: solid;
+
+      display: flex;
+
+
+    }
+
+    h3.bordering{
+      width: 160px;
+      height: 160px;
+      border: solid orange;
+      border-radius: 10px;
+      margin-left: 96px;
+      margin-top: 96px;
+    }
+
+
+    .anothercontainer{
+      height: 230px;
+      display: flex;
+    }
+
+    p.one{
+      width:330px;
+      height:250px;
+      border: solid;
+     /* margin-top: 40px;*/
+      margin-left:375px;
+      background-image:url(html5logo.webp);
+      background-repeat:no-repeat;
+      background-size:325px 245px;
+      border-radius: 10px;
+    }
+
+    .structuring{
+      width: 330px;
+      height: 275px;
+      /*border: solid white;*/
+      margin-left:0.5%;
+     /* margin-top: 40px;*/
+      
+    }
+
+    p.three{
+      height: 110px;
+      width: 110px;
+      border: solid white;
+      background-image: url(css3-logo.png);
+      background-repeat: no-repeat;
+      background-size: 125px 125px;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    
+
+     p.four{
+      height: 110px;
+      width: 110px;
+      border: solid white;
+      background-image: url(js.jpg);
+      background-repeat: no-repeat;
+      background-size: 125px 125px;
+      display: inline-block;
+      margin-left: 10px;
+      border-radius: 10px;
+    }
+
+     p.five{
+      height: 110px;
+      width: 110px;
+      border: solid white;
+      background-image: url(react.webp);
+      background-repeat: no-repeat;
+      background-size: 120px 120px;
+      margin-top: -5px;
+      display: inline-block;
+      border-radius: 10px;
+      
+    }
+
+
+    
+     p.six{
+      height: 110px;
+      width: 110px;
+      border: solid white;
+      background-image: url(nodejsenvironment.webp);
+      background-repeat: no-repeat;
+      background-size: 125px 125px;
+      margin-left: 10px ;
+      margin-top: -5px;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    .attris{
+      width: 390px;
+      height: 125px;
+      border: solid white;
+      margin-left: 20%;
+      margin-top: 40%;
+     /* margin-top: 40px;*/
+    
+    }
+
+   /*p.three{
+      width:160px;
+      height:210px;
+      display: inline-block;
+      border: solid;
+      margin-top: 70px;
+      margin-left:780px;
+    }*/
+
+
+    /* p.two{
+      width:160px;
+      height:210px;
+      display: inline-block;
+      border: soild;
+      margin-top: 70px;
+    }*/
+
+
+    
+    p.scematic {
+    width: 190px;
+    height: 140px;
+    border: 2px solid #04080a;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    margin-left: 170px;
+    padding: 10px;
+    text-align: center;
+   
+  }
+
+  .columns{
+    width: 100%;
+    height: 240px;
+  /*  margin-top: 70px;*/
+    display: flex;
+  }
+
+
+
+    .new{
+      background-color: rgb(18, 18, 28);
+      height:400px;
+      align-items:right;
+      border: solid;
+      border-color: rgb(18,18,28);
+
+    }
+
+    h4.hyper{
+      margin-left: 10%;
+
+    }
+
+    p.text{
+      margin-left: 10%;
+      color: white;
+
+    }
+
+    .another{
+      background-color: #0b081b;
+      height:400px;
+      border: solid;
+  
+    }
+
+    h4.align{
+      text-align: center;
+      
+    }
+
+    p.positionings{
+      color: white;
+      text-align: center;
+      margin-top: -35px;
+
+    }
+    
+    .contacts{ 
+      height:400px;
+      background-color: #0b081b;
+      border: solid;
+      gap:390px;
+
+
+    }
+
+    .rectangle{
+      height: 280px;
+      width: 100%;
+     /*border: white solid;*/
+      display:flex;
+    }
+ 
+    .storing{
+      width: 330px;
+      height: 250px;
+      /*border: solid white;*/
+      margin-left: 8%;
+      
+    }
+
+    .square{
+      width: 330px;
+      height: 250px;
+      /*border: solid white;*/
+      margin-left:40%;
+    }
+    #attribute{
+      height: 170px;
+      background-color: #0b081b;
+      border: solid;
+      display: inline-block;
+      width: 100%;
+    }
+
+    #htmlcss{
+      margin-left: 40%;
+      width: 260px;
+      height: 110px;
+      /*border: solid white;*/
+      
+    }
+
+    h3.finish1{
+      text-align: center;
+      color: white;
+    }
+
+    p.finish2{
+      /*text-align: center;*/
+      color: white;
+    }
+
+    .qwer{
+      /*margin-top: 55px;
+      width: 150px;
+      height: 30px;
+      border: solid black;*/
+      margin-left: 45%;
+    }
+
+    /*.links{
+      width: 25%;
+      height: 103px;
+      /*border: white solid;
+      margin-left: 37.5%;
+      display: inline-flex;
+    }
+
+    .numbers{
+      height: 99px;
+      width: 53px;
+     /* border: solid white;
+      background-image: url("./facebookicons.webp");
+      background-repeat: no-repeat;
+      background-size: 53px 90px;
+    }
+
+
+    .numbers1{
+      height: 99px;
+      width: 53px;
+     /* border: solid white;
+      background-image: url("./twittericon.webp");
+      background-repeat: no-repeat;
+      background-size: 53px 90px;
+
+    }
+
+    .numbers2{
+      height: 99px;
+      width: 53px;
+     /* border: solid white;
+      background-image: url("./linkdenicon.png");
+      background-repeat: no-repeat;
+      background-size: 53px 90px;
+    }
+
+    .numbers3{
+      height: 99px;
+      width: 53px;
+      /*border: solid white;
+      background-image: url("./instagramicon.png");
+      background-repeat: no-repeat;
+      background-size: 53px 90px;
+    }
+
+    .numbers4{
+      height: 99px;
+      width: 53px;
+     /*border: solid white;
+      background-image: url("./youtubeicon.jpg");
+      background-repeat: no-repeat;
+      background-size: 53px 90px;
+    }
+
+    .numbers5{
+      height: 99px;
+      width: 53px;
+      /*border: solid white;
+      background-image: url("./pinteresticon.webp");
+      background-repeat: no-repeat;
+      background-size: 53px 90px;
+    }
+*/
+
+
+    h4.attributes{
+      text-align: center;
+    }
+
+    p.elements{
+      text-align: center;
+      color: white;
+     
+    }
+
+    p.tagsmention{
+      text-align: center;
+      color: white;
+      margin-top: -25px;
+    }
+
+    p.blocklevel{
+      color: orange;
+
+    }
+
+    .positioning{
+      width: 180px;
+      height: 30px;
+      }
+     
+
+    p.onthesameline{
+      color:white;
+    }
+    
+    .alignrows{
+      width: 320px;
+      height: 110px;
+      margin-top: 4%;
+
+    }
+
+    button.webdev{
+      background-color: orange;
+      margin-top: 4%;
+    }
+
+
+    p.in-line{
+      color: white;
+    }
+
+
+    a.definesnewline{
+      color: white;
+    }
+
+    .box {
+    width: 190px;
+    height: 140px;
+    border: 2px solid #04080a;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    margin-left: 170px;
+    padding: 10px;
+    text-align: center;
+   
+  }
+
+  .containering{
+    width: 100%;
+    height: 240px;
+  /*  margin-top: 70px;*/
+    display: flex;
+  }
+
+  .frames{
+    width: 255px;
+    height:140px;
+    padding: 15px;
+    margin: 15px;
+    border: 3.2px solid orange;
+    margin-top: 96px;
+    margin-left:40px;
+  } 
+
+  /* if the another property is mentioned
+  on tags and element the another tagelement 
+  that is in the same row goes down 
+  need to learn how to align multiple
+  items in the same row*/
+
+ 
+
+ 
+  
+  
+  .imgs1{
+    width: 190px;
+    height:140px;
+    border: solid;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+
+
+  footer{
+      background-color:#0b081b;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      height: 40px;
+    
+  }
+
+  
